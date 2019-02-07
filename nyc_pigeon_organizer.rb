@@ -16,6 +16,7 @@ def nyc_pigeon_organizer(data)
         name_array.each do | name_inside |
           if name_inside == name 
             empty_hash[attribute] << key.to_s 
+          end 
         end 
       end 
     end 
